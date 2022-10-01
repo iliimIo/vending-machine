@@ -1,0 +1,29 @@
+import { IInventories } from './reducer';
+
+export enum TYPE {
+  INVENTORIES_PENDING = 'INVENTORIES_PENDING',
+  INVENTORIES_FAIL = 'INVENTORIES_FAIL',
+  GET_INVENTORIES = 'GET_INVENTORIES',
+  REDUCE_INVENTORIES = 'REDUCE_INVENTORIES',
+}
+
+interface INVENTORIES_PENDING {
+  type: TYPE.INVENTORIES_PENDING;
+}
+
+interface INVENTORIES_FAIL {
+  type: TYPE.INVENTORIES_FAIL;
+  payload: string;
+}
+
+interface GET_INVENTORIES {
+  type: TYPE.GET_INVENTORIES;
+  payload: IInventories[];
+}
+
+interface REDUCE_INVENTORIES {
+  type: TYPE.REDUCE_INVENTORIES;
+  payload: string;
+}
+
+export type Action = INVENTORIES_PENDING | INVENTORIES_FAIL | GET_INVENTORIES | REDUCE_INVENTORIES;

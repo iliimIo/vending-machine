@@ -1,0 +1,31 @@
+export enum TYPE {
+  MESSAGE_PENDING = 'MESSAGE_PENDING',
+  MESSAGE_FAIL = 'MESSAGE_FAIL',
+  GET_MESSAGE = 'GET_MESSAGE',
+  SET_MESSAGE = 'SET_MESSAGE',
+  REMOVE_MESSAGE = 'REMOVE_MESSAGE',
+}
+
+interface MESSAGE_PENDING {
+  type: TYPE.MESSAGE_PENDING;
+}
+
+interface MESSAGE_FAIL {
+  type: TYPE.MESSAGE_FAIL;
+  payload: string;
+}
+
+interface GET_MESSAGE {
+  type: TYPE.GET_MESSAGE;
+}
+
+interface SET_MESSAGE {
+  type: TYPE.SET_MESSAGE;
+  payload: string;
+}
+
+interface REMOVE_MESSAGE {
+  type: TYPE.REMOVE_MESSAGE;
+}
+
+export type Action = MESSAGE_PENDING | MESSAGE_FAIL | GET_MESSAGE | SET_MESSAGE | REMOVE_MESSAGE;
