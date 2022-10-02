@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Mountain Dew",
+    "title": "เบียร์",
     "code": "A1",
     "color": "#DFFF00",
     "stock": 0,
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "title": "A&W Root Beer",
+    "title": "น้ำส้ม",
     "code": "A2",
     "color": "#FFBF00",
     "stock": 1,
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "title": "Fanta",
+    "title": "น้ำส้มขึ้นมาอีกนิดนึง",
     "code": "A3",
     "color": "#FF7F50",
     "stock": 10,
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "title": "Schweppes",
+    "title": "อันนี้น้ำแดง",
     "code": "A4",
     "color": "#DE3163",
     "stock": 10,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "title": "Sprite",
+    "title": "สไปรท์",
     "code": "B1",
     "color": "#9FE2BF",
     "stock": 10,
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "title": "Chupa Chups",
+    "title": "น้ำเปล่า",
     "code": "B2",
     "color": "#40E0D0",
     "stock": 10,
@@ -49,15 +49,15 @@
   },
   {
     "id": 7,
-    "title": "Coca-Cola",
+    "title": "โค๊ก",
     "code": "B3",
-    "color": "#7FFF00",
+    "color": "#000000",
     "stock": 10,
     "price": 13
   },
   {
     "id": 8,
-    "title": "Pepsi",
+    "title": "เป๊ปซี่",
     "code": "B4",
     "color": "#CCCCFF",
     "stock": 10,
